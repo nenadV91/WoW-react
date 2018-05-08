@@ -7,6 +7,7 @@ import About from './About';
 
 const App = props => {
 	console.log(process.env.PUBLIC_URL);
+	console.log(process.env)
 	
 	return <Router basename={process.env.PUBLIC_URL}>
 		<div>

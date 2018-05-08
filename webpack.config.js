@@ -5,7 +5,7 @@ module.exports = {
 	entry: path.resolve(__dirname, 'src', 'index.js'),
 	output: {
 		filename: 'bundle.js',
-		path: path.resolve(__dirname, 'dist/')
+		path: path.resolve(__dirname, 'docs/')
 	},
 	devServer: {
 		port: 4000,
