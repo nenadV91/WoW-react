@@ -6,7 +6,7 @@ import Home from './Home';
 import About from './About';
 
 const App = props => {
-	return <Router>
+	return <Router basename={process.env.PUBLIC_URL}>
 		<div>
 			<Navbar fixed="top" color="dark" dark>
 				<Nav className="ml-auto">
