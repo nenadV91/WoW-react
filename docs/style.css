@@ -1,0 +1,12 @@
+section {
+	min-height: 100vh;
+	padding: 100px 0;
+}
+
+.bg-color {
+	background: #F8F9FA;
+}
+
+.title-row {
+	margin-bottom: 70px;
+}
